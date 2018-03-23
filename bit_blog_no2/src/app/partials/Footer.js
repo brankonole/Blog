@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 
 const Footer = (props) => {
     return (
-        <footer class="page-footer">
-            <div class="footer-copyright">
-                <div class="container center">
+        <footer className="page-footer">
+            <div className="footer-copyright">
+                <div className="container center">
                     Copyright © BIT November 2017
                 </div>
             </div>

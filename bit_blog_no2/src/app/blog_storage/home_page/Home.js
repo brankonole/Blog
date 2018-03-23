@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from '../../partials/Header';
+import { Switch, Route } from "react-router-dom";
 import PostItem from './PostItem';
 import Footer from '../../partials/Footer';
 
@@ -9,14 +10,13 @@ class Home extends Component {
     }
     render() {
         return(
-        <React.Fragment>
+        <div>
             <Header/>
             <PostItem/>
             <PostItem/>
             <PostItem/>
-            <PostItem/>
             <Footer/>
-         </React.Fragment>
+         </div>
         )
     }
 }
