@@ -155,6 +155,8 @@ my-app/
           AuthorName.js
           AuthorAddress.js
           AuthorCompany.js
+        about/
+          About.js
       App.js
     entities/
       Author.js
