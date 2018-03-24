@@ -13,7 +13,10 @@ class SinglePost extends Component {
         <React.Fragment>
             <Header/>
             <div className='container'>
-                <h3>SINGLE POST TITLE</h3>
+                <div>
+                    <Link to='/home'>Back</Link>
+                    <h3>SINGLE POST TITLE</h3>
+                </div>
                 <h5><Link to='/author'>Author Name</Link></h5>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique labore id delectus, iure pariatur dicta, tempora nulla sed, amet cum doloribus. Odio modi eius quos sit culpa exercitationem cum suscipit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, amet eos mollitia possimus voluptatem nostrum voluptates accusamus adipisci ipsum voluptas, totam veritatis provident ducimus cupiditate? Nesciunt accusantium nobis odio repellat? 

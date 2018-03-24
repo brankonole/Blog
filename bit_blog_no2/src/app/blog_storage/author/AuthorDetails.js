@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Header from '../../partials/Header';
 import Footer from '../../partials/Footer';
+import AuthorName from './AuthorName';
+import AuthorAddress from './AuthorAddress';
+import AuthorCompany from './AuthorCompany';
 
 class AuthorDetails extends Component {
     constructor(props) {
@@ -11,8 +14,13 @@ class AuthorDetails extends Component {
         return (
             <React.Fragment>
                 <Header />
-                <button>All authors</button>
-                <h2>Single Author</h2>
+                    <div className='container'>
+                    <Link to='/authors'>All authors</Link>
+                    <h2 className='center'>Single Author</h2>
+                    <AuthorName/>
+                    <AuthorAddress/>
+                    <AuthorCompany/>
+                </div>
                 <Footer />
             </React.Fragment>
         )

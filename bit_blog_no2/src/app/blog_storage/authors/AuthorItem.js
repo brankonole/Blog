@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const AuthorItem = (props) => {
     return (
         <div className="container">
-        <a href='#'>Name Surname (num of post)</a>
+        <Link to='/author'>Name Surname (num of post)</Link>
         </div>
     )
 }
