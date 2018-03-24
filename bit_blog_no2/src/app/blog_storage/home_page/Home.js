@@ -12,6 +12,7 @@ class Home extends Component {
         return(
         <div>
             <Header/>
+            <h2 className='center'>Posts</h2>
             <PostItem/>
             <PostItem/>
             <PostItem/>

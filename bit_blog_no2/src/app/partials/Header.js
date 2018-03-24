@@ -8,7 +8,7 @@ class Header extends Component {
     render() {
         return(
         <nav>
-            <div className="nav-wrapper">
+            <div className="nav-wrapper container">
                 <Link to="/" className="brand-logo">RND BLG</Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li><Link to="/">Home</Link></li>

@@ -12,7 +12,9 @@ class Authors extends Component {
         return(
         <React.Fragment>
             <Header/>
-            <h2 className='center'>Title</h2>
+            <h2 className='center'>Authors(6)</h2>
+            <AuthorItem/>
+            <AuthorItem/>
             <AuthorItem/>
             <Footer/>
          </React.Fragment>
