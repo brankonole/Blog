@@ -14,7 +14,7 @@ class App extends Component {
         <Route path='/home' component={Home} />
         <Route path='/authors' component={Authors} />
         <Route path='/about' component={About} />
-        <Route path='/singlePost' component={SinglePost}/>
+        <Route path='/singlePost/:id' component={SinglePost}/>
         <Route path='/author' component={AuthorDetails}/>
         <Route path='/' component={Home} />
       </Switch>
