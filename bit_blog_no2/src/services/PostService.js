@@ -2,9 +2,6 @@ import Post from '../entities/Post';
 const url = 'https://jsonplaceholder.typicode.com';
 
 class Posts {
-    constructor() {
-    }
-
     fetchPosts() {
         return fetch(`${url}/posts`)
             .then(response => {
@@ -17,6 +14,6 @@ class Posts {
                 })
             })
         }
-    }
+}
 
 export const posts = new Posts;

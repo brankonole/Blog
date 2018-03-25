@@ -2,9 +2,6 @@ import Author from '../entities/Author';
 const url = 'https://jsonplaceholder.typicode.com';
 
 class Users {
-    constructor() {
-    }
-
     fetchUsers() {
         return fetch(`${url}/users`)
             .then(response => {
@@ -17,6 +14,6 @@ class Users {
                 })
             })
         }
-    }
+}
 
 export const users = new Users;
