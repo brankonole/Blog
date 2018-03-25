@@ -7,7 +7,7 @@ class Header extends Component {
     }
     render() {
         return(
-        <nav>
+        <nav className='teal lighten-2'>
             <div className="nav-wrapper container">
                 <Link to="/" className="brand-logo">RND BLG</Link>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
