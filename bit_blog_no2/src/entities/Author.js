@@ -3,6 +3,7 @@ class Author {
         this.id = eachUser.id;
         this.name = eachUser.name;
         this.username = eachUser.username;
+        this.email = eachUser.email;
         this.phone = eachUser.phone;
         this.street = eachUser.address.street;
         this.city = eachUser.address.city;

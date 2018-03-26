@@ -15,3 +15,10 @@ main {
 }
 .footer-copyright { min-height: 70px; }
 .all-authors-btn, .back-btn { margin-top: 2.5rem; }
+iframe {
+  width: 50%;;
+  height: 70%;
+}
+.block-wrapper { display: flex; }
+.justify { justify-content: space-between; }
+.block-wrapper img { margin-right: 30px; }

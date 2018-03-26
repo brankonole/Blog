@@ -38,29 +38,29 @@ class Authors extends Component {
                 console.log(this.state.usersPosts);
             })
     }
-        
+
     componentDidMount() {
         this.loadAuthors()
-        this.loadUsersPosts()        
+        this.loadUsersPosts()
     }
 
     render() {
         console.log(this.state.users);
-        
-        return(
-        <React.Fragment>
-            <Header/>
-            <main>
-            <h2 className='center'>Authors({this.state.users.length})</h2>
-            {this.state.users.map(eachUser => {
-                const userPosts = this.state.usersPosts[eachUser.id];
-                const numOfPosts = userPosts ? userPosts.length : -1;
 
-                return <AuthorItem authorData={eachUser} numOfPosts={numOfPosts} key={eachUser.id} />
-            })}
-            </main>
-            <Footer/>
-         </React.Fragment>
+        return (
+            <React.Fragment>
+                <Header />
+                <main>
+                    <h2 className='center'>Authors({this.state.users.length})</h2>
+                    {this.state.users.map(eachUser => {
+                        const userPosts = this.state.usersPosts[eachUser.id];
+                        const numOfPosts = userPosts ? userPosts.length : -1;
+
+                        return <AuthorItem authorData={eachUser} numOfPosts={numOfPosts} key={eachUser.id} />
+                    })}
+                </main>
+                <Footer />
+            </React.Fragment>
         )
     }
 }

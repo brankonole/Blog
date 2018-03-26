@@ -10,7 +10,7 @@ class Posts {
             })
             .then(response => {
                 return response.map(eachPost => {
-                    return new Post(eachPost)
+                    return new Post(eachPost);
                 })
             })
         }
